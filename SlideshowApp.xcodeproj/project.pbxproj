@@ -12,6 +12,10 @@
 		4649DAAD1F9C605500861823 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4649DAAB1F9C605500861823 /* Main.storyboard */; };
 		4649DAAF1F9C605500861823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4649DAAE1F9C605500861823 /* Assets.xcassets */; };
 		4649DAB21F9C605500861823 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4649DAB01F9C605500861823 /* LaunchScreen.storyboard */; };
+		467968631FB040AC00C00FE8 /* kekka1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 467968601FB040AC00C00FE8 /* kekka1.jpg */; };
+		467968641FB040AC00C00FE8 /* kekka2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 467968611FB040AC00C00FE8 /* kekka2.jpg */; };
+		467968651FB040AC00C00FE8 /* sentaku.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 467968621FB040AC00C00FE8 /* sentaku.jpg */; };
+		467968871FB45D0700C00FE8 /* imageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467968861FB45D0700C00FE8 /* imageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		4649DAAE1F9C605500861823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4649DAB11F9C605500861823 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4649DAB31F9C605500861823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		467968601FB040AC00C00FE8 /* kekka1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kekka1.jpg; sourceTree = "<group>"; };
+		467968611FB040AC00C00FE8 /* kekka2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kekka2.jpg; sourceTree = "<group>"; };
+		467968621FB040AC00C00FE8 /* sentaku.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sentaku.jpg; sourceTree = "<group>"; };
+		467968861FB45D0700C00FE8 /* imageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,14 @@
 			children = (
 				4649DAA71F9C605500861823 /* AppDelegate.swift */,
 				4649DAA91F9C605500861823 /* ViewController.swift */,
+				467968861FB45D0700C00FE8 /* imageViewController.swift */,
 				4649DAAB1F9C605500861823 /* Main.storyboard */,
 				4649DAAE1F9C605500861823 /* Assets.xcassets */,
 				4649DAB01F9C605500861823 /* LaunchScreen.storyboard */,
 				4649DAB31F9C605500861823 /* Info.plist */,
+				467968601FB040AC00C00FE8 /* kekka1.jpg */,
+				467968611FB040AC00C00FE8 /* kekka2.jpg */,
+				467968621FB040AC00C00FE8 /* sentaku.jpg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -124,6 +136,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4649DAB21F9C605500861823 /* LaunchScreen.storyboard in Resources */,
+				467968641FB040AC00C00FE8 /* kekka2.jpg in Resources */,
+				467968631FB040AC00C00FE8 /* kekka1.jpg in Resources */,
+				467968651FB040AC00C00FE8 /* sentaku.jpg in Resources */,
 				4649DAAF1F9C605500861823 /* Assets.xcassets in Resources */,
 				4649DAAD1F9C605500861823 /* Main.storyboard in Resources */,
 			);
@@ -136,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				467968871FB45D0700C00FE8 /* imageViewController.swift in Sources */,
 				4649DAAA1F9C605500861823 /* ViewController.swift in Sources */,
 				4649DAA81F9C605500861823 /* AppDelegate.swift in Sources */,
 			);
@@ -299,6 +315,7 @@
 				4649DAB81F9C605500861823 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
